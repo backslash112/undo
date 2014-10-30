@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34E8C731A020B46004BB3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34E8C721A020B46004BB3EB /* Foundation.framework */; };
+		C34E8C751A020B46004BB3EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34E8C741A020B46004BB3EB /* CoreGraphics.framework */; };
+		C34E8C771A020B46004BB3EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34E8C761A020B46004BB3EB /* UIKit.framework */; };
+		C34E8C7D1A020B46004BB3EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34E8C7B1A020B46004BB3EB /* InfoPlist.strings */; };
+		C34E8C7F1A020B46004BB3EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C34E8C7E1A020B46004BB3EB /* main.m */; };
+		C34E8C831A020B46004BB3EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34E8C821A020B46004BB3EB /* AppDelegate.m */; };
+		C34E8C851A020B46004BB3EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34E8C841A020B46004BB3EB /* Images.xcassets */; };
+		C34E8C8C1A020B46004BB3EB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34E8C8B1A020B46004BB3EB /* XCTest.framework */; };
+		C34E8C8D1A020B46004BB3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34E8C721A020B46004BB3EB /* Foundation.framework */; };
+		C34E8C8E1A020B46004BB3EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34E8C761A020B46004BB3EB /* UIKit.framework */; };
+		C34E8C961A020B46004BB3EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34E8C941A020B46004BB3EB /* InfoPlist.strings */; };
+		C34E8C981A020B46004BB3EB /* SimpleUndoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C34E8C971A020B46004BB3EB /* SimpleUndoDemoTests.m */; };
+		C34E8CA21A020B8B004BB3EB /* SimpleUndoDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34E8CA11A020B8B004BB3EB /* SimpleUndoDemoViewController.xib */; };
+		C34E8CA51A020BB8004BB3EB /* SimpleUndoDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34E8CA41A020BB8004BB3EB /* SimpleUndoDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34E8C8F1A020B46004BB3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34E8C671A020B46004BB3EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34E8C6E1A020B46004BB3EB;
+			remoteInfo = SimpleUndoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34E8C6F1A020B46004BB3EB /* SimpleUndoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleUndoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E8C721A020B46004BB3EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C34E8C741A020B46004BB3EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C34E8C761A020B46004BB3EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C34E8C7A1A020B46004BB3EB /* SimpleUndoDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleUndoDemo-Info.plist"; sourceTree = "<group>"; };
+		C34E8C7C1A020B46004BB3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C34E8C7E1A020B46004BB3EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C34E8C801A020B46004BB3EB /* SimpleUndoDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleUndoDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C34E8C811A020B46004BB3EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C34E8C821A020B46004BB3EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C34E8C841A020B46004BB3EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C34E8C8A1A020B46004BB3EB /* SimpleUndoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleUndoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34E8C8B1A020B46004BB3EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C34E8C931A020B46004BB3EB /* SimpleUndoDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleUndoDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C34E8C951A020B46004BB3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C34E8C971A020B46004BB3EB /* SimpleUndoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleUndoDemoTests.m; sourceTree = "<group>"; };
+		C34E8CA11A020B8B004BB3EB /* SimpleUndoDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleUndoDemoViewController.xib; sourceTree = SOURCE_ROOT; };
+		C34E8CA31A020BB8004BB3EB /* SimpleUndoDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleUndoDemoViewController.h; sourceTree = "<group>"; };
+		C34E8CA41A020BB8004BB3EB /* SimpleUndoDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleUndoDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34E8C6C1A020B46004BB3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E8C751A020B46004BB3EB /* CoreGraphics.framework in Frameworks */,
+				C34E8C771A020B46004BB3EB /* UIKit.framework in Frameworks */,
+				C34E8C731A020B46004BB3EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E8C871A020B46004BB3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E8C8C1A020B46004BB3EB /* XCTest.framework in Frameworks */,
+				C34E8C8E1A020B46004BB3EB /* UIKit.framework in Frameworks */,
+				C34E8C8D1A020B46004BB3EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34E8C661A020B46004BB3EB = {
+			isa = PBXGroup;
+			children = (
+				C34E8C781A020B46004BB3EB /* SimpleUndoDemo */,
+				C34E8C911A020B46004BB3EB /* SimpleUndoDemoTests */,
+				C34E8C711A020B46004BB3EB /* Frameworks */,
+				C34E8C701A020B46004BB3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34E8C701A020B46004BB3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34E8C6F1A020B46004BB3EB /* SimpleUndoDemo.app */,
+				C34E8C8A1A020B46004BB3EB /* SimpleUndoDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34E8C711A020B46004BB3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C34E8C721A020B46004BB3EB /* Foundation.framework */,
+				C34E8C741A020B46004BB3EB /* CoreGraphics.framework */,
+				C34E8C761A020B46004BB3EB /* UIKit.framework */,
+				C34E8C8B1A020B46004BB3EB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34E8C781A020B46004BB3EB /* SimpleUndoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C34E8C811A020B46004BB3EB /* AppDelegate.h */,
+				C34E8C821A020B46004BB3EB /* AppDelegate.m */,
+				C34E8C841A020B46004BB3EB /* Images.xcassets */,
+				C34E8C791A020B46004BB3EB /* Supporting Files */,
+				C34E8CA11A020B8B004BB3EB /* SimpleUndoDemoViewController.xib */,
+				C34E8CA31A020BB8004BB3EB /* SimpleUndoDemoViewController.h */,
+				C34E8CA41A020BB8004BB3EB /* SimpleUndoDemoViewController.m */,
+			);
+			path = SimpleUndoDemo;
+			sourceTree = "<group>";
+		};
+		C34E8C791A020B46004BB3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C34E8C7A1A020B46004BB3EB /* SimpleUndoDemo-Info.plist */,
+				C34E8C7B1A020B46004BB3EB /* InfoPlist.strings */,
+				C34E8C7E1A020B46004BB3EB /* main.m */,
+				C34E8C801A020B46004BB3EB /* SimpleUndoDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34E8C911A020B46004BB3EB /* SimpleUndoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C34E8C971A020B46004BB3EB /* SimpleUndoDemoTests.m */,
+				C34E8C921A020B46004BB3EB /* Supporting Files */,
+			);
+			path = SimpleUndoDemoTests;
+			sourceTree = "<group>";
+		};
+		C34E8C921A020B46004BB3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C34E8C931A020B46004BB3EB /* SimpleUndoDemoTests-Info.plist */,
+				C34E8C941A020B46004BB3EB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34E8C6E1A020B46004BB3EB /* SimpleUndoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34E8C9B1A020B46004BB3EB /* Build configuration list for PBXNativeTarget "SimpleUndoDemo" */;
+			buildPhases = (
+				C34E8C6B1A020B46004BB3EB /* Sources */,
+				C34E8C6C1A020B46004BB3EB /* Frameworks */,
+				C34E8C6D1A020B46004BB3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleUndoDemo;
+			productName = SimpleUndoDemo;
+			productReference = C34E8C6F1A020B46004BB3EB /* SimpleUndoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34E8C891A020B46004BB3EB /* SimpleUndoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34E8C9E1A020B46004BB3EB /* Build configuration list for PBXNativeTarget "SimpleUndoDemoTests" */;
+			buildPhases = (
+				C34E8C861A020B46004BB3EB /* Sources */,
+				C34E8C871A020B46004BB3EB /* Frameworks */,
+				C34E8C881A020B46004BB3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34E8C901A020B46004BB3EB /* PBXTargetDependency */,
+			);
+			name = SimpleUndoDemoTests;
+			productName = SimpleUndoDemoTests;
+			productReference = C34E8C8A1A020B46004BB3EB /* SimpleUndoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34E8C671A020B46004BB3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yangcun;
+				TargetAttributes = {
+					C34E8C891A020B46004BB3EB = {
+						TestTargetID = C34E8C6E1A020B46004BB3EB;
+					};
+				};
+			};
+			buildConfigurationList = C34E8C6A1A020B46004BB3EB /* Build configuration list for PBXProject "SimpleUndoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C34E8C661A020B46004BB3EB;
+			productRefGroup = C34E8C701A020B46004BB3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34E8C6E1A020B46004BB3EB /* SimpleUndoDemo */,
+				C34E8C891A020B46004BB3EB /* SimpleUndoDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34E8C6D1A020B46004BB3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E8CA21A020B8B004BB3EB /* SimpleUndoDemoViewController.xib in Resources */,
+				C34E8C7D1A020B46004BB3EB /* InfoPlist.strings in Resources */,
+				C34E8C851A020B46004BB3EB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E8C881A020B46004BB3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E8C961A020B46004BB3EB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34E8C6B1A020B46004BB3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E8C831A020B46004BB3EB /* AppDelegate.m in Sources */,
+				C34E8CA51A020BB8004BB3EB /* SimpleUndoDemoViewController.m in Sources */,
+				C34E8C7F1A020B46004BB3EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34E8C861A020B46004BB3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34E8C981A020B46004BB3EB /* SimpleUndoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34E8C901A020B46004BB3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34E8C6E1A020B46004BB3EB /* SimpleUndoDemo */;
+			targetProxy = C34E8C8F1A020B46004BB3EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C34E8C7B1A020B46004BB3EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34E8C7C1A020B46004BB3EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C34E8C941A020B46004BB3EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34E8C951A020B46004BB3EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34E8C991A020B46004BB3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C34E8C9A1A020B46004BB3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34E8C9C1A020B46004BB3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUndoDemo/SimpleUndoDemo-Prefix.pch";
+				INFOPLIST_FILE = "SimpleUndoDemo/SimpleUndoDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C34E8C9D1A020B46004BB3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUndoDemo/SimpleUndoDemo-Prefix.pch";
+				INFOPLIST_FILE = "SimpleUndoDemo/SimpleUndoDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C34E8C9F1A020B46004BB3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleUndoDemo.app/SimpleUndoDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUndoDemo/SimpleUndoDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleUndoDemoTests/SimpleUndoDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C34E8CA01A020B46004BB3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleUndoDemo.app/SimpleUndoDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleUndoDemo/SimpleUndoDemo-Prefix.pch";
+				INFOPLIST_FILE = "SimpleUndoDemoTests/SimpleUndoDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34E8C6A1A020B46004BB3EB /* Build configuration list for PBXProject "SimpleUndoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E8C991A020B46004BB3EB /* Debug */,
+				C34E8C9A1A020B46004BB3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34E8C9B1A020B46004BB3EB /* Build configuration list for PBXNativeTarget "SimpleUndoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E8C9C1A020B46004BB3EB /* Debug */,
+				C34E8C9D1A020B46004BB3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C34E8C9E1A020B46004BB3EB /* Build configuration list for PBXNativeTarget "SimpleUndoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34E8C9F1A020B46004BB3EB /* Debug */,
+				C34E8CA01A020B46004BB3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34E8C671A020B46004BB3EB /* Project object */;
+}
